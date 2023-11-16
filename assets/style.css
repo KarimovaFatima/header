@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header-top a
+{
+    justify-content: flex-end;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    
+}
+.header-top a:hover{
+   color: rgb(88, 88, 88);
+}
+
+.nav-ul{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.header-main {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+ 
+    border-radius: 4px;
+    background-color: rgba(210, 210, 210, 0.921);
+    padding: 10px 90px 10px 20px;
+    margin: 5px 20px 5px 20px;
+    box-sizing: border-box;
+    border: none;
+    width: 100%;
+}
+
+.login-area a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.favorites-items a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.chosen-items a{
+    text-decoration: none;
+    color: black;
+}
+
+.login-area p:hover{
+    color: rgb(252, 132, 34);
+}
+
+.favorites-items a:hover{
+    color: rgb(252, 132, 34);
+}
+
+.chosen-items a:hover{
+    color: rgb(252, 132, 34);
+}
+
+.woman a{
+    text-decoration: none;
+    color:black;
+}
+
+.woman-shop-options:hover{
+    color: rgb(252, 132, 34);
+    text-decoration: underline;
+}
+
+
+
